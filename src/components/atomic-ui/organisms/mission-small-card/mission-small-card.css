@@ -25,8 +25,14 @@
     color: #ccc;
     border: 3px solid var(--card-border-color);
 
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, var(--background-color)), color-stop(50%, var(--text-color))) right;
+
+    background: -o-linear-gradient(right, var(--background-color) 50%, var(--text-color) 50%) right;
+
     background: linear-gradient(to left, var(--background-color) 50%, var(--text-color) 50%) right;
     background-size: 200%;
+    -webkit-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
     transition: .5s ease-out;
 }
 

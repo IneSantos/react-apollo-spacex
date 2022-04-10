@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# React Apollo SpaceX dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a web application that allows users to see a list of the last 10 lanches provided by the [SpaceX Graphql API](https://api.spacex.land/graphql/) and see the missions in detail on a separate route.
+
+
+## Decision process
+
+To build this application I decided to use Create React App since I'm already familiar with React and it is a fairly simple and complete way to start a project. 
+Personally, I chose to take the extra step and add Typescript to the code since it makes the code more manageable and helped me spot issues earlier. 
+My thought process behind the folder splitting was that, this way if the project grew to a larger and more complex project it would be easy to do so.
+All the design was developed by me, I opted-out using any design framework.
+
+If I was given more time I would have liked to add more information into the mission view and improved the design. 
+Any questions please don't hesitate to contact me.
+
+## Setup instructions
+
+Since this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) all the scripts are detailed below. 
+
+
+---
+
+After downloading the project don't forget to run  `npm install`
+
+---
+
+
 
 ## Available Scripts
 

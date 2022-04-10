@@ -1,8 +1,13 @@
 @import "../../../theme-variables.css";
 
 .spacex-mission {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background: var(--background-color);
 
     padding: 25px 25px;
