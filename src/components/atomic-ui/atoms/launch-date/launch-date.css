@@ -1,0 +1,15 @@
+
+.launch-date {
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+@media (min-width: 60em) {
+    .launch-date {
+        font-size: 20px;
+    }
+}

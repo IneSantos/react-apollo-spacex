@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardHeader molecule tests CardHeader component render 1`] = `
+<div
+  class="card-header"
+>
+  <h2
+    class="title"
+  >
+    This is a mission name
+  </h2>
+</div>
+`;

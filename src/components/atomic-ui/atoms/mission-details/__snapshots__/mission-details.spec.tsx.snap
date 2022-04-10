@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MisisonDetails atom tests MisisonDetails component render 1`] = `
+<div
+  class="details"
+>
+  This is a detail
+</div>
+`;

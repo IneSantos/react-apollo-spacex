@@ -1,0 +1,9 @@
+@import "../../../theme-variables.css";
+
+.spacex-mission {
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color);
+
+    padding: 25px 25px;
+}

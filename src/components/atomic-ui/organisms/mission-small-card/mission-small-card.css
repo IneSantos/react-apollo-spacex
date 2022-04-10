@@ -1,0 +1,68 @@
+@import "../../../../theme-variables.css";
+
+.mission-wrapper {
+    background-color: var(--background-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1.5rem 2rem;
+    margin: 1.3rem;
+    border-radius: 5px;
+    position: relative;
+    -webkit-box-shadow: 0 4px 6px 4px rgb(91 164 164 / 20%);
+            box-shadow: 0 4px 6px 4px rgb(91 164 164 / 20%);
+    
+    color: #ccc;
+    border: 3px solid var(--card-border-color);
+
+    background: linear-gradient(to left, var(--background-color) 50%, var(--text-color) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.mission-wrapper:hover { 
+    background-position: left;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+}
+
+.mission-wrapper:hover > .card-header {
+    color: var(--background-color);
+}
+
+.mission-wrapper:hover > .list-card-body {
+    color: var(--background-color);
+}
+
+.mission-wrapper:first-child {
+    margin: 1.3rem;
+}
+
+@media (min-width: 60em) {
+    .mission-wrapper {
+        border-radius: 3px;
+        border: 1px solid var(--card-border-color);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 980px;
+        margin: 1.3rem 0;
+    }
+
+    .mission-wrapper:first-child {
+        margin: 1.3rem 0;
+    }
+}

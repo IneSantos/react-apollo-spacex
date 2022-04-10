@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListCardBody molecule tests ListCardBody component render 1`] = `
+<div
+  class="list-card-body"
+>
+  <div
+    class="details"
+  >
+    This is a mission detail
+  </div>
+  <div
+    class="launch-date"
+  >
+    April 10, 2022
+  </div>
+</div>
+`;

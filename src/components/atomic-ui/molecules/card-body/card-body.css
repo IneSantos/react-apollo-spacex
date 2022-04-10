@@ -1,0 +1,26 @@
+@import "../../../../theme-variables.css";
+
+.card-body  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: var(--text-color);
+    padding-top: 18px;
+}
+
+.card-body > .card-action {
+    padding: 15px;
+    margin: 30px 0 0;
+    border: 2px solid var(--text-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-body > .card-action:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}

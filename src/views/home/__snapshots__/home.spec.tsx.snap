@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home view tests Home component render with error msg 1`] = `
+<p>
+  Error :(
+</p>
+`;
+
+exports[`Home view tests Home component render with loader 1`] = `
+<div
+  class="loder"
+>
+  <div
+    class="lds-ellipsis"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;
+
+exports[`Home view tests Home component render with success 1`] = `
+<div
+  class="spacex-missions"
+>
+  <header>
+    <div
+      class="banner"
+    />
+    <h1>
+      Recent Launches
+    </h1>
+  </header>
+  <section
+    class="missions-body"
+  >
+    <div
+      class="mission-list"
+    >
+      <a
+        href="/mission/0"
+        style="text-decoration: none;"
+      >
+        <div
+          class="mission-wrapper"
+        >
+          <div
+            class="card-header"
+          >
+            <h2
+              class="title"
+            >
+              This is a mission name
+            </h2>
+          </div>
+          <div
+            class="list-card-body"
+          >
+            <div
+              class="details"
+            >
+              This is a mission detail
+            </div>
+            <div
+              class="launch-date"
+            >
+              October 24, 2020
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
+`;

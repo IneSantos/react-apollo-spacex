@@ -1,14 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { createRoot } from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import Routing from "./routes/index";
+import "normalize.css";
+import './index.css';
 
-ReactDOM.render(
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider
+} from "@apollo/client";
+
+const client = new ApolloClient({
+  uri: 'https://api.spacex.land/graphql/',
+  cache: new InMemoryCache()
+});
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <ApolloProvider client={client}>
+      <Routing />
+    </ApolloProvider>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,22 @@
+@import "../../../../theme-variables.css";
+
+.card-header {
+    color: var(--text-color);
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 0 18px;
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: 16px;
+}
+
+@media (min-width: 60em) {
+    .card-header {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 18px 0 8px;
+    }
+}

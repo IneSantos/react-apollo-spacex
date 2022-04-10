@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionTitle atom tests MissionTitle component render 1`] = `
+<h2
+  class="title"
+>
+  This is a mission name
+</h2>
+`;

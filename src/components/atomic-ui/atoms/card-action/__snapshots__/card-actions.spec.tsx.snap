@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardAction atom tests CardAction component render 1`] = `
+<a
+  class="card-action "
+>
+   
+  CARD ACTION
+   
+</a>
+`;

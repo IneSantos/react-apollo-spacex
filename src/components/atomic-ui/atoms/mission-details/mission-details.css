@@ -1,0 +1,12 @@
+.details {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (min-width: 60em) {
+    .details {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }    
+}

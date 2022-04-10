@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LaunchDate atom tests LaunchDate component render 1`] = `
+<div
+  class="launch-date"
+>
+  April 10, 2022
+</div>
+`;

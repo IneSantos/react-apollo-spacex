@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionCard organism tests MissionCard component render with missions 1`] = `
+<div
+  class="mission-list"
+>
+  <a
+    href="/mission/0"
+    style="text-decoration: none;"
+  >
+    <div
+      class="mission-wrapper"
+    >
+      <div
+        class="card-header"
+      >
+        <h2
+          class="title"
+        >
+          This is a mission name
+        </h2>
+      </div>
+      <div
+        class="list-card-body"
+      >
+        <div
+          class="details"
+        >
+          This is a mission detail
+        </div>
+        <div
+          class="launch-date"
+        >
+          April 10, 2022
+        </div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/mission/1"
+    style="text-decoration: none;"
+  >
+    <div
+      class="mission-wrapper"
+    >
+      <div
+        class="card-header"
+      >
+        <h2
+          class="title"
+        >
+          This is another mission name
+        </h2>
+      </div>
+      <div
+        class="list-card-body"
+      >
+        <div
+          class="details"
+        >
+          This is another mission detail
+        </div>
+        <div
+          class="launch-date"
+        >
+          April 11, 2022
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`MissionCard organism tests MissionCard component render with no missions 1`] = `
+<div
+  class="mission-list"
+>
+  <div
+    class="empty-list"
+  >
+    <h3>
+      No results.
+    </h3>
+    <span>
+      Sorry we have no SpaceX Missions to show.
+    </span>
+  </div>
+</div>
+`;

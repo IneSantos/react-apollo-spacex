@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionCard organism tests MissionCard component render 1`] = `
+<div
+  class="mission-card-wrapper"
+>
+  <img
+    alt="Launch image"
+    src=""
+  />
+  <div
+    class="card-header"
+  >
+    <h2
+      class="title"
+    >
+      This is a mission name
+    </h2>
+  </div>
+  <div
+    class="card-body"
+  >
+    <div
+      class="details"
+    >
+      This is a mission detail
+    </div>
+    <a
+      class="card-action "
+      href=""
+    >
+       
+      See more
+       
+    </a>
+  </div>
+</div>
+`;
